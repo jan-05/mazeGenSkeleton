@@ -1,0 +1,27 @@
+{
+  "dataStructure": "adjlist",
+  "rowNum": 50,
+  "colNum": 50,
+  "entrances": [
+    [
+      -1,
+      12
+    ],
+    [
+      23,
+      -1
+    ]
+  ],
+  "exits": [
+    [
+      4,
+      50
+    ],
+    [
+      50,
+      9
+    ]
+  ],
+  "generator": "recur",
+  "visualise": true
+}

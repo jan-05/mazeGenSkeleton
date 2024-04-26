@@ -1,5 +1,5 @@
 {
-  "dataStructure": "adjlist",
+  "dataStructure": "adjmat",
   "rowNum": 70,
   "colNum": 100,
   "entrances": [

@@ -97,62 +97,105 @@ class AdjMatGraph(Graph):
         self.vertices = {}  # Dictionary to store vertices
         self.adj_matrix = {}  # Adjacency matrix
 
+
+
+
     def addVertex(self, label: Coordinates):
         if label not in self.vertices:
-            self.vertices[label] = len(self.vertices)  # Assigning index to vertex
-            self.adj_matrix[label] = [False] * len(self.vertices)  # Initializing row
-            for vertex in self.adj_matrix:
-                vertex_index = self.vertices[vertex]
-                self.adj_matrix[vertex].append(False)  # Adding new column
+            index = len(self.vertices)
+            self.vertices[label] = index
+            self.adj_matrix[label] = [False] * index  # Initialize row with zeros
+        
+            # Update existing vertices with new column for the new vertex
+            vertex_labels = list(self.vertices.keys())
+            vertex_index = 0
+            while vertex_index < len(vertex_labels):
+                vertex_label = vertex_labels[vertex_index]
+                self.adj_matrix[vertex_label].append(False)  # Add new column for the new vertex
+                vertex_index += 1
+        
             return True
         return False
 
     def addVertices(self, vertLabels: List[Coordinates]):
-        added = False
-        for label in vertLabels:
-            added = self.addVertex(label) or added
-        return added
-
+        success = all(self.addVertex(label) for label in vertLabels)
+        return success
+    
     def addEdge(self, vert1: Coordinates, vert2: Coordinates, addWall: bool = False) -> bool:
         if vert1 in self.vertices and vert2 in self.vertices:
             index1, index2 = self.vertices[vert1], self.vertices[vert2]
             self.adj_matrix[vert1][index2] = True
             self.adj_matrix[vert2][index1] = True
+            if addWall:
+                self.adj_matrix[vert1][index2] = 2
+                self.adj_matrix[vert2][index1] = 2
             return True
+            
         return False
+
+
+
+
 
     def updateWall(self, vert1: Coordinates, vert2: Coordinates, wallStatus: bool) -> bool:
-        if vert1 in self.vertices and vert2 in self.vertices:
-            index1, index2 = self.vertices[vert1], self.vertices[vert2]
-            self.adj_matrix[vert1][index2] = wallStatus
-            self.adj_matrix[vert2][index1] = wallStatus
-            return True
-        return False
+         if vert1 in self.vertices and vert2 in self.vertices:
+             v1, v2 = self.vertices[vert1], self.vertices[vert2]
+        
+             # If wallStatus is True, set the adjacency matrix value to 2 (indicating a wall)
+             # Otherwise, set it to False (indicating an edge)
+             self.adj_matrix[vert1][v2] = 2 if wallStatus else False 
+             self.adj_matrix[vert2][v1] = 2 if wallStatus else False 
+        
+             return True
+    
+         return False
 
     def removeEdge(self, vert1: Coordinates, vert2: Coordinates) -> bool:
-        return self.updateWall(vert1, vert2, False)
+          if vert1 in self.vertices and vert2 in self.vertices:
+              index1, index2 = self.vertices[vert1], self.vertices[vert2]
+        
+              # Set the adjacency matrix value to 0 to indicate no edge between the vertices
+              self.adj_matrix[vert1][index2] = 0
+              self.adj_matrix[vert2][index1] = 0
+        
+              return True
+    
+          return False
 
     def hasVertex(self, label: Coordinates) -> bool:
-        return label in self.vertices
+        return label in self.vertices.keys()
+
 
     def hasEdge(self, vert1: Coordinates, vert2: Coordinates) -> bool:
         if vert1 in self.vertices and vert2 in self.vertices:
             index1, index2 = self.vertices[vert1], self.vertices[vert2]
-            return self.adj_matrix[vert1][index2]
+            for vertex, index in self.vertices.items():
+                if index == index1:
+                    return self.adj_matrix[vertex][index2]
         return False
 
+
     def getWallStatus(self, vert1: Coordinates, vert2: Coordinates) -> bool:
-        if vert1 in self.vertices and vert2 in self.vertices:
-            index1, index2 = self.vertices[vert1], self.vertices[vert2]
-            return self.adj_matrix[vert1][index2]
-        return False
+      if vert1 in self.vertices and vert2 in self.vertices:
+          index1, index2 = self.vertices[vert1], self.vertices[vert2]
+          vertices = list(self.vertices.keys())
+          i = 0
+          while i < len(vertices):
+              if i == index1:
+                  return self.adj_matrix[vertices[i]][index2] == 2
+              i += 1
+      return False
+
 
     def neighbours(self, label: Coordinates) -> List[Coordinates]:
         if label in self.vertices:
             neighbours = []
-            index = self.vertices[label]
-            for vertex in self.adj_matrix:
-                if self.adj_matrix[vertex][index]:
-                    neighbours.append(vertex)
+            label_pos = self.vertices[label]
+            vertices = list(self.vertices.keys())
+            pos = 0
+            while pos < len(vertices):
+                if self.adj_matrix[vertices[pos]][label_pos]:
+                    neighbours.append(vertices[pos])
+                pos += 1
             return neighbours
         return []

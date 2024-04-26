@@ -1,0 +1,55 @@
+JSONFileName,Rows * Columns,Runtime (seconds)
+sampleConfig_array_density_25_1.json,2500,0.09481640000000001
+sampleConfig_array_density_25_1.json,50 * 50,4.4910829067230225
+sampleConfig_array_density_25_2.json,2500,0.091337
+sampleConfig_array_density_25_2.json,50 * 50,4.007892847061157
+sampleConfig_array_density_25_3.json,2500,0.0927973
+sampleConfig_array_density_25_3.json,50 * 50,3.5615808963775635
+sampleConfig_array_density_50_1.json,2500,0.09361799999999999
+sampleConfig_array_density_50_1.json,50 * 50,3.4163131713867188
+sampleConfig_array_density_50_2.json,2500,0.09302540000000001
+sampleConfig_array_density_50_2.json,50 * 50,3.4373323917388916
+sampleConfig_array_density_50_3.json,2500,0.0937153
+sampleConfig_array_density_50_3.json,50 * 50,3.4531564712524414
+sampleConfig_array_density_75_1.json,2500,0.1123749
+sampleConfig_array_density_75_1.json,50 * 50,7.408155202865601
+sampleConfig_array_density_75_2.json,2500,0.09229870000000001
+sampleConfig_array_density_75_2.json,50 * 50,7.508351802825928
+sampleConfig_array_density_75_3.json,2500,0.10394039999999999
+sampleConfig_array_density_75_3.json,50 * 50,4.584496259689331
+sampleConfig_array_density_25_1.json,2500,0.1170084
+sampleConfig_array_density_25_1.json,50 * 50,4.9496142864227295
+sampleConfig_array_density_25_2.json,2500,0.10017970000000001
+sampleConfig_array_density_25_2.json,50 * 50,4.713989496231079
+sampleConfig_array_density_25_3.json,2500,0.0939705
+sampleConfig_array_density_25_3.json,50 * 50,4.172093391418457
+sampleConfig_array_density_50_1.json,2500,0.0983855
+sampleConfig_array_density_50_1.json,50 * 50,4.339576244354248
+sampleConfig_array_density_50_2.json,2500,0.09367260000000001
+sampleConfig_array_density_50_2.json,50 * 50,3.8233046531677246
+sampleConfig_array_density_50_3.json,2500,0.0934363
+sampleConfig_array_density_50_3.json,50 * 50,3.6216728687286377
+sampleConfig_array_density_75_1.json,2500,0.10170330000000001
+sampleConfig_array_density_75_1.json,50 * 50,4.003191947937012
+sampleConfig_array_density_75_2.json,2500,0.0918858
+sampleConfig_array_density_75_2.json,50 * 50,3.9494457244873047
+sampleConfig_array_density_75_3.json,2500,0.10112220000000001
+sampleConfig_array_density_75_3.json,50 * 50,4.034631967544556
+sampleConfig_array_density_25_1.json,2500,0.1042364
+sampleConfig_array_density_25_1.json,50 * 50,4.016639471054077
+sampleConfig_array_density_25_2.json,2500,0.0991061
+sampleConfig_array_density_25_2.json,50 * 50,4.080453634262085
+sampleConfig_array_density_25_3.json,2500,0.0929686
+sampleConfig_array_density_25_3.json,50 * 50,3.5752451419830322
+sampleConfig_array_density_50_1.json,2500,0.0931668
+sampleConfig_array_density_50_1.json,50 * 50,3.4645259380340576
+sampleConfig_array_density_50_2.json,2500,0.09256020000000001
+sampleConfig_array_density_50_2.json,50 * 50,4.095089435577393
+sampleConfig_array_density_50_3.json,2500,0.1004742
+sampleConfig_array_density_50_3.json,50 * 50,3.9150662422180176
+sampleConfig_array_density_75_1.json,2500,0.0897359
+sampleConfig_array_density_75_1.json,50 * 50,3.590312957763672
+sampleConfig_array_density_75_2.json,2500,0.0907589
+sampleConfig_array_density_75_2.json,50 * 50,4.020684480667114
+sampleConfig_array_density_75_3.json,2500,0.09117460000000001
+sampleConfig_array_density_75_3.json,50 * 50,3.834183931350708

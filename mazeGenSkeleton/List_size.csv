@@ -1,0 +1,4 @@
+JSONFileName,Rows * Columns,Runtime (seconds)
+sampleConfig_list_size_5x5_1.json,25,0.0011411
+sampleConfig_list_size_50x50_3.json,2500,4.486539125
+sampleConfig_list_size_100x100_3.json,10000,9.009134054

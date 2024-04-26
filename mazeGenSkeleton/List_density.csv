@@ -1,0 +1,55 @@
+JSONFileName,Rows * Columns,Runtime (seconds)
+sampleConfig_list_density_25_1.json,2500,0.1410849
+sampleConfig_list_density_25_1.json,50 * 50,4.487650632858276
+sampleConfig_list_density_25_2.json,2500,0.1272696
+sampleConfig_list_density_25_2.json,50 * 50,3.8337759971618652
+sampleConfig_list_density_25_3.json,2500,0.1318747
+sampleConfig_list_density_25_3.json,50 * 50,3.4758379459381104
+sampleConfig_list_density_50_1.json,2500,0.1379194
+sampleConfig_list_density_50_1.json,50 * 50,3.5805492401123047
+sampleConfig_list_density_50_2.json,2500,0.13230429999999999
+sampleConfig_list_density_50_2.json,50 * 50,3.4376637935638428
+sampleConfig_list_density_50_3.json,2500,0.1307585
+sampleConfig_list_density_50_3.json,50 * 50,3.403247117996216
+sampleConfig_list_density_75_1.json,2500,0.1334297
+sampleConfig_list_density_75_1.json,50 * 50,3.6129720211029053
+sampleConfig_list_density_75_2.json,2500,0.1438747
+sampleConfig_list_density_75_2.json,50 * 50,3.5027079582214355
+sampleConfig_list_density_75_3.json,2500,0.1322333
+sampleConfig_list_density_75_3.json,50 * 50,3.434878349304199
+sampleConfig_list_density_25_1.json,2500,0.1291921
+sampleConfig_list_density_25_1.json,50 * 50,3.568392038345337
+sampleConfig_list_density_25_2.json,2500,0.128941
+sampleConfig_list_density_25_2.json,50 * 50,3.479504346847534
+sampleConfig_list_density_25_3.json,2500,0.1330001
+sampleConfig_list_density_25_3.json,50 * 50,3.5116279125213623
+sampleConfig_list_density_50_1.json,2500,0.1275044
+sampleConfig_list_density_50_1.json,50 * 50,5.54228401184082
+sampleConfig_list_density_50_2.json,2500,0.1269364
+sampleConfig_list_density_50_2.json,50 * 50,3.5809543132781982
+sampleConfig_list_density_50_3.json,2500,0.1333709
+sampleConfig_list_density_50_3.json,50 * 50,3.538677453994751
+sampleConfig_list_density_75_1.json,2500,0.12979890000000002
+sampleConfig_list_density_75_1.json,50 * 50,3.324422597885132
+sampleConfig_list_density_75_2.json,2500,0.1283031
+sampleConfig_list_density_75_2.json,50 * 50,3.403669834136963
+sampleConfig_list_density_75_3.json,2500,0.13447869999999998
+sampleConfig_list_density_75_3.json,50 * 50,3.5764880180358887
+sampleConfig_list_density_25_1.json,2500,0.1317189
+sampleConfig_list_density_25_1.json,50 * 50,3.477487802505493
+sampleConfig_list_density_25_2.json,2500,0.1314125
+sampleConfig_list_density_25_2.json,50 * 50,3.4262866973876953
+sampleConfig_list_density_25_3.json,2500,0.128474
+sampleConfig_list_density_25_3.json,50 * 50,3.514680862426758
+sampleConfig_list_density_50_1.json,2500,0.1253019
+sampleConfig_list_density_50_1.json,50 * 50,3.357271194458008
+sampleConfig_list_density_50_2.json,2500,0.13054839999999998
+sampleConfig_list_density_50_2.json,50 * 50,3.5212039947509766
+sampleConfig_list_density_50_3.json,2500,0.1362748
+sampleConfig_list_density_50_3.json,50 * 50,3.390493392944336
+sampleConfig_list_density_75_1.json,2500,0.1289427
+sampleConfig_list_density_75_1.json,50 * 50,3.8429555892944336
+sampleConfig_list_density_75_2.json,2500,0.1308455
+sampleConfig_list_density_75_2.json,50 * 50,3.5662810802459717
+sampleConfig_list_density_75_3.json,2500,0.1299872
+sampleConfig_list_density_75_3.json,50 * 50,3.90517258644104

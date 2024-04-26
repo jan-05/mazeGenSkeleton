@@ -1,0 +1,55 @@
+JSONFileName,Rows * Columns,Runtime (seconds)
+sampleConfig_mat_size_5x5_1.json,25,0.003022
+sampleConfig_mat_size_5x5_1.json,5 * 5,2.8184807300567627
+sampleConfig_mat_size_5x5_2.json,25,0.0029467
+sampleConfig_mat_size_5x5_2.json,5 * 5,2.390251874923706
+sampleConfig_mat_size_5x5_3.json,25,0.0030144
+sampleConfig_mat_size_5x5_3.json,5 * 5,1.9388923645019531
+sampleConfig_mat_size_50x50_1.json,2500,14.244682300000001
+sampleConfig_mat_size_50x50_1.json,50 * 50,19.785863637924194
+sampleConfig_mat_size_50x50_2.json,2500,14.074368400000001
+sampleConfig_mat_size_50x50_2.json,50 * 50,19.537353038787842
+sampleConfig_mat_size_50x50_3.json,2500,13.9690146
+sampleConfig_mat_size_50x50_3.json,50 * 50,19.104860067367554
+sampleConfig_mat_size_100x100_1.json,10000,331.7006201
+sampleConfig_mat_size_100x100_1.json,100 * 100,375.8807535171509
+sampleConfig_mat_size_100x100_2.json,10000,338.8666645
+sampleConfig_mat_size_100x100_2.json,100 * 100,392.21742272377014
+sampleConfig_mat_size_100x100_3.json,10000,278.7754221
+sampleConfig_mat_size_100x100_3.json,100 * 100,310.2297921180725
+sampleConfig_mat_size_5x5_1.json,25,0.0034204
+sampleConfig_mat_size_5x5_1.json,5 * 5,2.3909435272216797
+sampleConfig_mat_size_5x5_2.json,25,0.0043618
+sampleConfig_mat_size_5x5_2.json,5 * 5,2.2607743740081787
+sampleConfig_mat_size_5x5_3.json,25,0.0033401000000000004
+sampleConfig_mat_size_5x5_3.json,5 * 5,2.009373426437378
+sampleConfig_mat_size_50x50_1.json,2500,14.5583593
+sampleConfig_mat_size_50x50_1.json,50 * 50,248.57797956466675
+sampleConfig_mat_size_50x50_2.json,2500,14.2212565
+sampleConfig_mat_size_50x50_2.json,50 * 50,27.449812173843384
+sampleConfig_mat_size_50x50_3.json,2500,15.212343800000001
+sampleConfig_mat_size_50x50_3.json,50 * 50,20.469849109649658
+sampleConfig_mat_size_100x100_1.json,10000,273.67590260000003
+sampleConfig_mat_size_100x100_1.json,100 * 100,304.94968605041504
+sampleConfig_mat_size_100x100_2.json,10000,319.05517430000003
+sampleConfig_mat_size_100x100_2.json,100 * 100,356.1239433288574
+sampleConfig_mat_size_100x100_3.json,10000,339.1154193
+sampleConfig_mat_size_100x100_3.json,100 * 100,371.7046232223511
+sampleConfig_mat_size_5x5_1.json,25,0.0039018
+sampleConfig_mat_size_5x5_1.json,5 * 5,2.7720611095428467
+sampleConfig_mat_size_5x5_2.json,25,0.0055776
+sampleConfig_mat_size_5x5_2.json,5 * 5,2.4583518505096436
+sampleConfig_mat_size_5x5_3.json,25,0.0057266
+sampleConfig_mat_size_5x5_3.json,5 * 5,2.576965093612671
+sampleConfig_mat_size_50x50_1.json,2500,20.9827995
+sampleConfig_mat_size_50x50_1.json,50 * 50,27.691745281219482
+sampleConfig_mat_size_50x50_2.json,2500,22.4560327
+sampleConfig_mat_size_50x50_2.json,50 * 50,29.79229497909546
+sampleConfig_mat_size_50x50_3.json,2500,16.6379273
+sampleConfig_mat_size_50x50_3.json,50 * 50,22.453917741775513
+sampleConfig_mat_size_100x100_1.json,10000,305.240312
+sampleConfig_mat_size_100x100_1.json,100 * 100,337.4045350551605
+sampleConfig_mat_size_100x100_2.json,10000,283.4869827
+sampleConfig_mat_size_100x100_2.json,100 * 100,316.73534989356995
+sampleConfig_mat_size_100x100_3.json,10000,347.8601707
+sampleConfig_mat_size_100x100_3.json,100 * 100,380.4440405368805

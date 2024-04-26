@@ -1,0 +1,55 @@
+JSONFileName,Rows * Columns,Runtime (seconds)
+sampleConfig_array_size_5x5_1.json,25,0.0039367
+sampleConfig_array_size_5x5_1.json,5 * 5,3.1780812740325928
+sampleConfig_array_size_5x5_2.json,25,0.0030223
+sampleConfig_array_size_5x5_2.json,5 * 5,1.9865272045135498
+sampleConfig_array_size_5x5_3.json,25,0.0037632
+sampleConfig_array_size_5x5_3.json,5 * 5,1.9245922565460205
+sampleConfig_array_size_50x50_1.json,2500,14.306884499999999
+sampleConfig_array_size_50x50_1.json,50 * 50,19.188193559646606
+sampleConfig_array_size_50x50_2.json,2500,14.8889035
+sampleConfig_array_size_50x50_2.json,50 * 50,20.342814922332764
+sampleConfig_array_size_50x50_3.json,2500,15.7761519
+sampleConfig_array_size_50x50_3.json,50 * 50,20.794164419174194
+sampleConfig_array_size_100x100_1.json,10000,297.8967909
+sampleConfig_array_size_100x100_1.json,100 * 100,329.6297414302826
+sampleConfig_array_size_100x100_2.json,10000,324.29259079999997
+sampleConfig_array_size_100x100_2.json,100 * 100,358.2663493156433
+sampleConfig_array_size_100x100_3.json,10000,323.6291511
+sampleConfig_array_size_100x100_3.json,100 * 100,361.21464467048645
+sampleConfig_array_size_5x5_1.json,25,0.0041849
+sampleConfig_array_size_5x5_1.json,5 * 5,2.843041181564331
+sampleConfig_array_size_5x5_2.json,25,0.0040281
+sampleConfig_array_size_5x5_2.json,5 * 5,2.2608296871185303
+sampleConfig_array_size_5x5_3.json,25,0.0036983
+sampleConfig_array_size_5x5_3.json,5 * 5,2.3864636421203613
+sampleConfig_array_size_50x50_1.json,2500,18.034526
+sampleConfig_array_size_50x50_1.json,50 * 50,24.668683528900146
+sampleConfig_array_size_50x50_2.json,2500,20.2367217
+sampleConfig_array_size_50x50_2.json,50 * 50,25.811480045318604
+sampleConfig_array_size_50x50_3.json,2500,16.2824731
+sampleConfig_array_size_50x50_3.json,50 * 50,21.268418312072754
+sampleConfig_array_size_100x100_1.json,10000,337.7704133
+sampleConfig_array_size_100x100_1.json,100 * 100,398.20326471328735
+sampleConfig_array_size_100x100_2.json,10000,282.6782779
+sampleConfig_array_size_100x100_2.json,100 * 100,316.61960101127625
+sampleConfig_array_size_100x100_3.json,10000,340.2973403
+sampleConfig_array_size_100x100_3.json,100 * 100,392.98772048950195
+sampleConfig_array_size_5x5_1.json,25,0.0032234000000000004
+sampleConfig_array_size_5x5_1.json,5 * 5,2.883840799331665
+sampleConfig_array_size_5x5_2.json,25,0.0034773
+sampleConfig_array_size_5x5_2.json,5 * 5,2.9384193420410156
+sampleConfig_array_size_5x5_3.json,25,0.0033984999999999996
+sampleConfig_array_size_5x5_3.json,5 * 5,3.6539270877838135
+sampleConfig_array_size_50x50_1.json,2500,15.1316995
+sampleConfig_array_size_50x50_1.json,50 * 50,21.0327308177948
+sampleConfig_array_size_50x50_2.json,2500,17.5693585
+sampleConfig_array_size_50x50_2.json,50 * 50,28.086228370666504
+sampleConfig_array_size_50x50_3.json,2500,18.6958199
+sampleConfig_array_size_50x50_3.json,50 * 50,24.285253524780273
+sampleConfig_array_size_100x100_1.json,10000,327.9855539
+sampleConfig_array_size_100x100_1.json,100 * 100,363.60170221328735
+sampleConfig_array_size_100x100_2.json,10000,316.2029104
+sampleConfig_array_size_100x100_2.json,100 * 100,349.4844596385956
+sampleConfig_array_size_100x100_3.json,10000,328.5171512
+sampleConfig_array_size_100x100_3.json,100 * 100,358.8946228027344

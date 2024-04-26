@@ -12,6 +12,7 @@ import sys
 import time
 import json
 from typing import List
+import csv
 
 from maze.util import Coordinates
 from maze.maze import Maze
@@ -25,6 +26,15 @@ from generation.recurBackGenerator import RecurBackMazeGenerator
 # this checks if Visualizer has been imported properly.
 # if not, likely missing some packages, e.g., matplotlib.
 # in that case, regardless of visualisation flag, we should set the canVisualise flag to False which will not call the visuslisation part.
+
+
+
+def storeRuntime(runTime, filename, jsonFileName, rowNum, colNum):
+    with open(filename, mode='a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow([jsonFileName, rowNum*colNum , runTime])
+
+
 canVisualise = True
 try:
 	from maze.maze_viz import Visualizer
@@ -114,6 +124,12 @@ if __name__ == '__main__':
 
 		print(f'Generation took {endGenTime - startGenTime:0.4f} seconds')
 
+		totalTime = endGenTime - startGenTime
+		storeRuntime(endGenTime - startGenTime, 'Array_density.csv', fileName,rowNum, colNum)
+
+     
+   
+
 		# add/generate the entrances and exits
 		generator.addEntrances(maze)
 		generator.addExits(maze)
@@ -125,4 +141,5 @@ if __name__ == '__main__':
 			cellSize = 1
 			visualiser = Visualizer(maze, cellSize) 
 			visualiser.show_maze()
-			
+	
+	

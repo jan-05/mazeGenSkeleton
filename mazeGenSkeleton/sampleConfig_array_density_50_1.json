@@ -1,0 +1,27 @@
+{
+  "dataStructure": "array",
+  "rowNum": 50,
+  "colNum": 50,
+  "entrances": [
+    [
+      -1,
+      31
+    ],
+    [
+      3,
+      -1
+    ]
+  ],
+  "exits": [
+    [
+      28,
+      50
+    ],
+    [
+      50,
+      4
+    ]
+  ],
+  "generator": "recur",
+  "visualise": true
+}
